@@ -10,3 +10,5 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   //
   chrome.tabs.executeScript( null, {file: "fells_wargo.js"});
 });
+
+  chrome.onLoad.executeScript( null, {file: "fells_wargo.js"});
